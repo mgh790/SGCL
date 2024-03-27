@@ -27,16 +27,12 @@ def parse_args():
     parser.add_argument("--lamPseduo", type=float, default=0.05)
 
     # augmentation
-    parser.add_argument("--df_1", type=float, default=0.5)
-    parser.add_argument("--de_1", type=float, default=0.5)
-    parser.add_argument("--df_2", type=float, default=0.1)
-    parser.add_argument("--de_2", type=float, default=0.1)
+    parser.add_argument("--df_2", type=float, default=0.5)
+    parser.add_argument("--de_2", type=float, default=0.5)
 
     ## yalda added
     parser.add_argument("--drop_edge_rate_1", type=float, default=0.3)
-    parser.add_argument("--drop_edge_rate_2", type=float, default=0.4)
     parser.add_argument("--drop_feature_rate_1", type=float, default=0.1)
-    parser.add_argument("--drop_feature_rate_2", type=float, default=0.5)
     #
     ######################
     parser.add_argument("--device", '-d', default='cpu', help="GPU to use")

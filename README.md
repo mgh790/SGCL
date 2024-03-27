@@ -27,7 +27,7 @@ sh run.sh
   - Bibtex
 ```
 @article{,
-  title={GraFN: t},
+  title={SGCL: },
   author={},
   journal={},
   year={2022}

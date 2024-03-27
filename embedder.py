@@ -22,7 +22,7 @@ class embedder:
         # dataset
         self.data = Dataset(root=args.root, dataset=args.dataset)[0].to(self.device)
 
-        self.transform1 = get_graph_drop_transform(drop_edge_p=args.de_1, drop_feat_p=args.df_1)
+        # self.transform1 = get_graph_drop_transform(drop_edge_p=args.de_1, drop_feat_p=args.df_1)
         self.transform2 = get_graph_drop_transform(drop_edge_p=args.de_2, drop_feat_p=args.df_2)
 
 

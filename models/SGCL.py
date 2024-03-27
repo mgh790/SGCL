@@ -45,7 +45,8 @@ class SGCL_Trainer(embedder):
             for epoch in range(1, self.args.epochs + 1):
                 self.model.train()
                 self.optimizer.zero_grad()
-                anchor, positive = self.transform1(self.data), self.transform2(self.data)
+                # anchor  = self.transform1(self.data)
+                positive=self.transform2(self.data)
                 label_matrix, support_index, self.batch_size = self.Sampler.sample()
                 pos_rep = self.model(positive)
                 pos_support_rep = pos_rep[support_index]
