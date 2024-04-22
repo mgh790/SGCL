@@ -22,15 +22,16 @@ sh run.sh
 
 ### Cite (Bibtex)
 - If you find ``SGCL`` useful in your research, please cite the following paper:
-  - Junseok Lee, Yunhak Oh, Yeonjun In, Namkyeong Lee, Dongmin Hyun, and Chanyoung Park. "SGCL:".
-  - If this work is helpful for your reserarch, you can kindly cite the following paper()
+  - Ghayekhloo, M. and Nickabadi, A., 2024. Supervised contrastive learning for graph representation enhancement. Neurocomputing, p.127710.
   - Bibtex
 ```
-@article{,
-  title={SGCL: },
-  author={},
-  journal={},
-  year={2022}
+@article{ghayekhloo2024supervised,
+  title={Supervised contrastive learning for graph representation enhancement},
+  author={Ghayekhloo, Mohadeseh and Nickabadi, Ahmad},
+  journal={Neurocomputing},
+  pages={127710},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
 
